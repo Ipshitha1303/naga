@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Registration Form</title>
+   </head>
+   <body style="font-family: Arial, sans-serif; background-image: url('https://www.w3schools.com/w3images/forest.jpg'); background-size: cover; background-position: center; color: #333; padding: 20px;">
+        <h1 style="color: deeppink; text-align: center;">
+           <b>REGISTRATION FORM ✍️</b>
+        </h1>
+
+        <!-- Form Section -->
+        <form name="f1" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 300px; margin: 0 auto;">
+             <label style="font-weight: bold; display: block; margin-top: 10px;">Enter your name 📝</label>
+             <input type="text" name="t1" placeholder="Username" style="width: 100%; padding: 8px; margin: 5px 0 15px 0; border: 1px solid #ccc; border-radius: 4px;" required><br>
+
+             <label style="font-weight: bold; display: block; margin-top: 10px;">Enter your age 🎂</label>
+             <input type="number" name="t2" placeholder="In numbers" style="width: 100%; padding: 8px; margin: 5px 0 15px 0; border: 1px solid #ccc; border-radius: 4px;" required><br>
+
+             <label style="font-weight: bold; display: block; margin-top: 10px;">Enter your password 🔑</label>
+             <input type="password" name="t3" placeholder="Password" style="width: 100%; padding: 8px; margin: 5px 0 15px 0; border: 1px solid #ccc; border-radius: 4px;" required><br>
+
+             <label style="font-weight: bold; display: block; margin-top: 10px;">Enter your email 📧</label>
+             <input type="email" name="t4" placeholder="@email" style="width: 100%; padding: 8px; margin: 5px 0 15px 0; border: 1px solid #ccc; border-radius: 4px;" required><br>
+
+             <div style="margin-top: 10px;">
+                 <label style="font-weight: bold; display: block;">Select Your Gender 🌍</label>
+                 <input type="radio" name="gender" value="MALE" id="male"> MALE 🧑
+                 <input type="radio" name="gender" value="FEMALE" id="female"> FEMALE 👩<br><br>
+             </div>
+
+             <label style="font-weight: bold; display: block; margin-top: 10px;">About Yourself ('~') 🧑‍💻</label>
+             <textarea rows="3" cols="15" placeholder="Text about you...." style="width: 100%; padding: 8px; margin: 5px 0 15px 0; border: 1px solid #ccc; border-radius: 4px;" required></textarea><br><br>
+
+             <label style="font-weight: bold; display: block; margin-top: 10px;">Enter your qualifications 🎓</label>
+             <div style="display: flex; justify-content: space-between;">
+                 <input type="checkbox" name="q" value="SSC"> SSC 🏫
+                 <input type="checkbox" name="p" value="12th"> 12th 🎒
+                 <input type="checkbox" name="r" value="BTECH"> BTECH 💻
+             </div><br>
+
+             <input type="reset" value="Clear ❌" style="background-color: deeppink; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">
+             <input type="submit" value="Sign In 🚀" style="background-color: deeppink; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">
+        </form>
+
+        <!-- New Section: Information Table -->
+        <div style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; margin-top: 30px; border-radius: 8px; width: 80%; margin: 30px auto;">
+            <h2 style="text-align: center; color: deeppink;">Available Courses 📚</h2>
+            <table style="width: 100%; border-collapse: collapse; margin: 20px 0; border: 1px solid #ddd;">
+                <tr style="background-color: #f2f2f2;">
+                    <th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Course Name</th>
+                    <th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Duration ⏳</th>
+                    <th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Price 💵</th>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Web Development</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">3 Months</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">$300</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Graphic Design</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">2 Months</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">$250</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Digital Marketing</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">4 Months</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">$350</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- New Section: Contact Links -->
+        <div style="text-align: center; margin-top: 40px; background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 8px;">
+            <h2 style="color: deeppink;">Contact Us 📞</h2>
+            <p>If you have any questions or need more information, feel free to <a href="mailto:contact@example.com" style="color: deeppink;">email us 📧</a> or visit our <a href="https://www.example.com" target="_blank" style="color: deeppink;">website 🌐</a>.</p>
+        </div>
+   </body>
+</html>
